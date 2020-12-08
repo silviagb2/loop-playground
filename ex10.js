@@ -27,5 +27,28 @@
 let hora_actual = 8;
 let hora_dormir = 24;
 
+for (i=hora_actual; i<hora_dormir; i++){
+    if (i===8) {
+        console.log(`A las ${i}, el sim se despierta`)
+    }
+    else if (i===9){
+        console.log(`A las ${i}, el sim desayuna`)
+    }
+    else if (i>=10 && i<=16){
+        console.log(`A las ${i}, el sim estudia Front End`)
+    }
+    else if (i===17){
+        console .log(`A las ${i}, siesta`)
+    }
+    else if(i<=18 && i<=22){
+        console.log(`A las ${i}, el sim tiene tiempo libre`)
+    }
+    else if(i===22){
+        console.log(`A las ${i}, el sim cena`)
+    }
+    else {
+        console.log(`A las ${i}, el sim se va a dormir`)
+    }
+}
 
 
